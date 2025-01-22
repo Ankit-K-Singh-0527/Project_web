@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index follow" />
+    <meta name="description" 
+    content="This is my first project, which is totally based on html and purely based on my learnings."/>
+    <meta name="author" content="Ankit K Singh"/>
+<style> 
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap');
+
+html {
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+} 
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #333;}
+li,
+p,
+label {
+        font-size: 1.6rem;
+        color: #333;
+    }
+    .about-progress {
+            width: 100%;
+            height: 20px;
+        }
+        progress[value]::-webkit-progress-value {
+            background-color: green;
+        }
+        
+</style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="#" tabindex="_blank">
+                <img src="https://www.thinknexttraining.com/images/java-logo.webp" 
+                alt="java"
+                width="50"
+                height="auto"/>
+            </a>      
+        </div>
+        <nav>
+            <ul style="list-style: none; display: flex; gap: 10px">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#contact">PersonalInfo</a></li>
+                <li><a href="#download">Download</a></li>
+                <li><a href="#myContact">Contact</a></li>
+                <li><a href="#Secret">Screte</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- our main Hero section-->
+     <main>
+        <div class="hero">
+            <h1>I am Ankit K Singh, creating my first self learned project.</h1>
+            <p>I'm really excited to do that 
+                and it will be really fabolus feeling 
+                to complete that project.
+            </p>
+            <button>Witness the commence</button>
+            <a           href="https://youtu.be/5ccq_nLHneE?si=i2lFcL4Bp6g-R1Xq"
+            target="_blank"
+            > <button>visit thapaYT</button></a
+            >
+        </div>
+        <div class="hero-image">
+            <figure>
+                <img src="https://www.thinknexttraining.com/images/java-logo.webp"
+                alt="hero-image"
+                width="300"
+                height="auto"/>
+            </figure>
+        </div>
+     </main>
+     <section>
+        <h2>About the Project</h2>
+        <div class="about-content">
+        <p>It's my pleasure to present you 
+            my project.
+        </p>
+        <p>It is simply based on pure HTML5, and
+            nothing else used , for reference some
+            some css syling used.
+        </p>
+        <p><strong>My coding knowledge</strong></p>
+        <div class="about-progress">
+            <label for="html">HTML CODE: </label>
+            <progress id="html" max="100" value="75">75% HTML</progress>
+        </div>
+        <div class="about-progress">
+            <label for="css">CSS CODE: </label>
+            <progress id="css" max="200" value="50">50%CSS</progress>
+        </div>
+        <div class="about-progress">
+            <label for="js">JavaScript CODE: </label>
+            <progress id="js" max="300" value="140">140% JS</progress>
+        </div>
+        <div class="about-progress">
+            <label for="mern">MERN CODE: </label>
+            <progress id="mern" max="400" value="140">140% MERN</progress>
+        </div>
+        </div>
+     </section>
+     <section class="services-section">
+        <h2>Our Services</h2>
+        <div class="java-gallary" style="display: flex">
+            <figure>
+                <img src="https://th.bing.com/th/id/OIP.y07B7YpFoK_uA8CPcUjWGwHaHZ?rs=1&pid=ImgDetMain"
+                alt="java1"
+                width="150"/>
+                <figcaption>java development</figcaption>
+            </figure>
+            
+            <figure>
+                <img src="https://play-lh.googleusercontent.com/gSvS4Npz1pg8C4OFlZtxdPgbOwFgB5xyEh9VhCLCtvYvgqKAY-dPVTMyiDELjwCeQg=w240-h480"
+                alt="java2"
+                width="120"/>
+                <figcaption>java  series</figcaption>
+            </figure>
+
+            <figure>
+                <img src="https://th.bing.com/th/id/OIP.1qj_exwXTlZ6c0auFKNwEQHaEK?w=750&h=422&rs=1&pid=ImgDetMain"
+                alt="java3"
+                width="200"/>
+                <figcaption>development series</figcaption>
+            </figure>
+
+            <figure>
+                <img src="https://th.bing.com/th/id/OIP.-efJkJxmrb7xf1MtLDzbAQHaEK?w=750&h=422&rs=1&pid=ImgDetMain"
+                alt="java4"
+                width="200"
+                />
+                <figcaption>java dev series</figcaption>
+            </figure>
+            <br>
+        </div>
+     </section>
+     <br>
+     <div>
+        <h2 id="download">To download java image:</h2>
+        <a href="./java.png" download><strong>Download</strong></a>
+     </div>
+     <div>
+        <h2 id="Secret">Here, if you click a secret part then a new tab opens</h2>
+        <img src="https://images.pexels.com/photos/462118/pexels-photo-462118.jpeg?cs=srgb&dl=bloom-blooming-blossom-462118.jpg&fm=jpg"
+        alt="secret"
+        usemap="#map"
+        width="250"
+        height="150"/>
+        <map name="map">
+            <area 
+            shape="rect"
+            coords="0,0,125,75"
+            href="https://th.bing.com/th/id/OIP.hvxPSdPgNgJhVp0QqKjE4QHaEK?rs=1&pid=ImgDetMain"
+            ></map>
+     </div>
+     <!-- Blog section  -->
+     <section class="blog-section">
+        <h2>Our Blogs</h2>
+        <article>
+            <header>
+                <h2>Inhance the java dev step by step</h2>   
+            </header>
+            <p><strong><em>Java dev</em></strong> is a part of app development, 
+                which is a booming market in today's world. And practicing java with dsa is like
+                making your self irreplacable in job market.
+            </p>
+            <section>
+                <h3>About java</h3>
+                <p>Java is a versatile and powerful programming language 
+                    used for building a wide range of applications. 
+                    It is known for its portability, robustness, and ease of use, 
+                    making it a popular choice among developers.
+                </p>
+            </section>
+            <section>
+                <h3>Unlock potential with java</h3>
+                <p>Java offers platform independence, strong memory management,
+                     and a rich API for robust application development.
+                </p>
+            </section>
+            <p>Thank you for reading till the end.</p>
+        </article>
+     </section>
+     <!-- Podcast section -->
+      <section class="podcast-section">
+        <p>
+            <em>
+                It's a java dev podcast which will 
+                give you insights of java dev.
+            </em>
+        </p>
+        <audio controls autoplay loop muted >
+            <source src="./sample-3.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+      </section>
+      
+      <!-- other article links sections -->
+       <section class="blog-links">
+        <p>Hope you liked my java content.</p>
+        <ul>
+            <li> <a href="https://youtu.be/5ccq_nLHneE?si=7L1Jri6H2Zx-nJBp" 
+            target="_blank"> This thapa yt link
+            </a> 
+            </li>
+            <li> <a href="https://wallpapercave.com/wp/wp7250222.jpg"
+            target="_blank"> This is java image link
+            </a> </li>
+            <li><a href="https://static.vecteezy.com/system/resources/previews/001/416/705/original/html5-emblem-orange-shield-and-white-text-vector.jpg"
+            > This is html link.
+            </a> </li>
+        </ul>
+       </section>
+
+       <!-- contact us section -->
+        <section class="contact-section">
+            <h2>Feel free to contact us</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14414.499756671165!2d81.88559769999999!3d25.41736229999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39854b1f53c56605%3A0x82116e58c42069d6!2sMahaKumbh%20Prayagraj%202025!5e0!3m2!1sen!2sin!4v1737556364980!5m2!1sen!2sin" 
+            width="100%" height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            title="Map of Mahakumbh"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <br>
+        <!-- form section -->
+         <form>
+            <fieldset>
+                <legend><strong><h2 id="contact">Personal Info</h2></strong></legend>
+            <br>
+            <div>
+                <label for="name">Username:</label>
+                <input type="text" id="name" required/>
+            </div>
+            <br>
+            <div>
+                <label for="email">Email id:</label>
+                <input type="email" id="email" required />
+            </div>
+            <br>
+            <div>
+                <label for="phone">Phone no:</label>
+                <input type="tel" id="phone" required/>
+            </div>
+            <br>
+            <div>
+                <label for="gender">Gender:</label>
+                <input type="radio" name="genders"/>Male
+                <input type="radio" name="genders"/>Female
+                <input type="radio" name="genders"/>Other
+            </div>
+            <br>
+            <div>
+                <label for="age">Age:</label>
+                <input type="date" id="age" required/>
+            </div>
+            <br>
+            <div>
+                <label for="color">Favorite color:</label>
+                <input type="color" id="color" />
+            </div>
+            <br>
+            <div>
+                <label for="message">Message:</label>
+                <textarea name="" id="message" cols="40" rows="20"></textarea>
+            </div>
+            <br>
+            <input type="submit" value="submit"/>
+            </fieldset>
+         </form>
+        </section>
+        <footer>
+            <p>Tribute to thapa technical sir!</p>
+            <br>
+            <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/5ccq_nLHneE?si=ibTH79w8Kt4OsExp" 
+            title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+            <br>
+            <form>
+                <fieldset>
+                    <legend><h1 id="myContact">Contact Us</h1></legend>
+                    <div>
+                        <label for="email">Email us:</label>
+                        <a href="mailto: ankitkumarsinghbhumihar20.aa@gmail.com">connect</a>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="phone">Call us:</label>
+                        <a href="tel:+91-9279670355">connect</a>
+                    </div>
+                    <br>
+                </fieldset>
+            </form>
+            <p>
+                Copyright &copy;2025 All rights reserved | This template is made with ❤️💪
+                by Ankit K Singh.
+            </p>
+        </footer>
+    </body>
+</html>
